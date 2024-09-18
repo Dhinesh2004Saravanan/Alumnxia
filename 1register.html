@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./register.css" />
+    <link rel="stylesheet" href="./register1.css" />
+
+    <script>
+      async function registerFunction() {
+        // let emailId = document.getElementById("email");
+        // let password = document.getElementById("password");
+        // Define the URL for the POST request
+        const url = "http://192.168.1.38:3030/register"; // Replace with your actual URL
+
+        // Define the data you want to send
+        const data = {
+          email: "akashdass8@gmail.com",
+          password: "1234567890",
+        };
+        console.log(emailId);
+
+        //  Make the POST request using fetch
+        await fetch(url, {
+          method: "POST", // or 'PUT', 'DELETE', etc.
+          headers: {
+            "Content-Type": "application/json", // Specify that the data is in JSON format
+          },
+          body: JSON.stringify(data), // Convert the JavaScript object to a JSON string
+        })
+          .then(function (response) {
+            if (response.status) {
+              window.location.href = "./Home.html";
+            }
+          }) // Parse the JSON from the response
+          .then((result) => {
+            console.log("Success:", result); // Handle the response
+          })
+          .catch((error) => {
+            console.error("Error:", error); // Handle any errors
+          });
+      }
+    </script>
+    <style>
+      body {
+        background-color: rgba(116, 185, 183, 0.856);
+      }
+      a,
+      button,
+      input,
+      select,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: none;
+        text-decoration: none;
+        background: none;
+
+        -webkit-font-smoothing: antialiased;
+      }
+
+      menu,
+      ol,
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body style="height: auto; width: 100%">
+    <div class="login-page-2">
+      <div class="frame-1">
+        <div class="rectangle-7"></div>
+        <div class="frame-3">
+          <div class="register">Register</div>
+        </div>
+        <div class="frame-5">
+          <div class="frame-6"></div>
+          <div class="email-id">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="email-id"
+            />
+          </div>
+        </div>
+        <div class="frame-8">
+          <div class="frame-6"></div>
+          <div class="name">
+            <input type="name" name="name" id="name" placeholder="name" />
+          </div>
+        </div>
+        <div class="frame-62">
+          <div class="frame-6">
+            <img
+              class="icons-8-show-password-96-1"
+              src="icons-8-show-password-96-10.png"
+            />
+          </div>
+          <div class="re-enter-password">
+            <input
+              type="password"
+              name="re-enter-password"
+              id="re-enter-password"
+              placeholder="re enter password"
+            />
+          </div>
+        </div>
+        <div class="frame-9">
+          <div class="frame-6">
+            <img
+              class="icons-8-show-password-96-1"
+              src="icons-8-show-password-96-11.png"
+            />
+          </div>
+          <div class="password">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="password"
+            />
+          </div>
+        </div>
+
+        <div class="frame-7">
+          <div class="register2" onclick="registerFunction()">
+            <a>register</a>
+          </div>
+        </div>
+        <div class="past-pioneers-future-trailblazers-join-the-alumni-network">
+          Alumni Network!
+        </div>
+        <div class="frame-5038">
+          <div class="or-login"><a href="./login page2.html">or login</a></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

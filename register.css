@@ -1,0 +1,232 @@
+.login-page-2,
+.login-page-2 * {
+  box-sizing: border-box;
+}
+.login-page-2 {
+  background: linear-gradient(
+    127.98deg,
+    rgba(80, 126, 115, 1) 44.099974632263184%,
+    rgba(231, 202, 120, 1) 100%
+  );
+ 
+}
+.frame-1 {
+  background: #ffffff;
+  border-radius: 22px;
+  width: 886px;
+  height: 576px;
+  position: absolute;
+  left: calc(50% - 442px);
+  top: calc(50% - 296px);
+  box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  backdrop-filter: blur(2px);
+}
+.rectangle-7 {
+  background: #507e73;
+  width: 443px;
+  height: 576px;
+  position: absolute;
+  left: 443px;
+  top: 0px;
+  filter: blur(2px);
+}
+.frame-3 {
+  background: #ffffff;
+  border-radius: 50px;
+  width: 297px;
+  height: 77px;
+  position: absolute;
+  left: 68px;
+  top: calc(50% - 245px);
+  overflow: hidden;
+}
+.register {
+  color: #f39501;
+  text-align: center;
+  font-family: "AlumniSansInlineOne-Regular", sans-serif;
+  font-size: 58px;
+  line-height: 81px;
+  letter-spacing: 0.18em;
+  font-weight: 400;
+  position: absolute;
+  left: -1px;
+  top: 1px;
+  width: 298px;
+  height: 76px;
+}
+.frame-5 {
+  background: #507e73;
+  border-radius: 25px;
+  width: 373px;
+  height: 46px;
+  position: absolute;
+  left: calc(50% - 413px);
+  top: calc(50% - 68px);
+  overflow: hidden;
+}
+.frame-6 {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 365px;
+  height: 38px;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  overflow: hidden;
+}
+.email-id {
+  color: #232323;
+  text-align: left;
+  font-family: "AdventPro-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 145%;
+  letter-spacing: 0.18em;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 169.5px);
+  top: calc(50% - 19px);
+  width: 312px;
+  height: 39px;
+}
+.frame-8 {
+  background: #507e73;
+  border-radius: 25px;
+  width: 373px;
+  height: 46px;
+  position: absolute;
+  left: calc(50% - 413px);
+  top: calc(50% - 138px);
+  overflow: hidden;
+}
+.name {
+  color: #232323;
+  text-align: left;
+  font-family: "AdventPro-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 145%;
+  letter-spacing: 0.18em;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 169.5px);
+  top: calc(50% - 19px);
+  width: 312px;
+  height: 39px;
+}
+.frame-62 {
+  background: #507e73;
+  border-radius: 25px;
+  width: 373px;
+  height: 46px;
+  position: absolute;
+  left: calc(50% - 413px);
+  top: calc(50% - -72px);
+  overflow: hidden;
+}
+.icons-8-show-password-96-1 {
+  width: 24px;
+  height: 23px;
+  position: absolute;
+  left: calc(50% - -141.5px);
+  top: calc(50% - 12px);
+  object-fit: cover;
+}
+.re-enter-password {
+  color: #232323;
+  text-align: left;
+  font-family: "AdventPro-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 145%;
+  letter-spacing: 0.18em;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 169.5px);
+  top: calc(50% - 19px);
+  width: 312px;
+  height: 39px;
+}
+.frame-9 {
+  background: #507e73;
+  border-radius: 25px;
+  width: 373px;
+  height: 46px;
+  position: absolute;
+  left: calc(50% - 413px);
+  top: calc(50% - -2px);
+  overflow: hidden;
+}
+.password {
+  color: #232323;
+  text-align: left;
+  font-family: "AdventPro-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 145%;
+  letter-spacing: 0.18em;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 169.5px);
+  top: calc(50% - 19px);
+  width: 312px;
+  height: 39px;
+}
+.frame-7 {
+  background: #f39501;
+  border-radius: 25px;
+  width: 153px;
+  height: 40px;
+  position: absolute;
+  left: calc(50% - 303px);
+  top: calc(50% - -153px);
+  overflow: hidden;
+}
+.register2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Anaheim-Regular", sans-serif;
+  font-size: 21px;
+  line-height: 152%;
+  letter-spacing: 0.18em;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 72.5px);
+  top: calc(50% - 18px);
+  width: 146px;
+  height: 35px;
+}
+.past-pioneers-future-trailblazers-join-the-alumni-network {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AlumniSansInlineOne-Regular", sans-serif;
+  font-size: 64px;
+  line-height: 81px;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  position: absolute;
+  left: 455px;
+  top: 125px;
+  width: 402px;
+  height: 284px;
+}
+.frame-5038 {
+  width: 197px;
+  height: 18px;
+  position: absolute;
+  left: 118px;
+  top: 494px;
+}
+.or-login {
+  color: #666666;
+  text-align: center;
+  font-family: "Anaheim-Regular", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.18em;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 98.5px);
+  top: calc(50% - 6px);
+  width: 197px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
